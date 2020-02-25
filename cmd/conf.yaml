@@ -1,0 +1,14 @@
+apiversion: v1
+name: api-data
+port: 9903
+jwtkey: azz
+uploadpath: /home/k8s/tomcat/apache-tomcat-8.5.47/webapps/upload
+bboltdbpath: /home/k8s/Go/ws/src/github.com/lhzd863/tools-server/tmp
+uploadrmturl: http://122.51.161.53:8080/upload
+leastsqscript: /home/k8s/Go/ws/src/github.com/lhzd863/tools-server/script/analysis_leastsq_report0200.py
+leastsqregexp: "Analysis Leastsq Result:"
+fitscript: /home/k8s/Go/ws/src/github.com/lhzd863/tools-server/script/analysis_fit_line0200.py
+fitgrepexp: "\\*\\*\\*fit function a b value: \\[([0-9|\\.|\\-]*)\\] \\[([0-9|\\.|\\-]*)\\] \\[([0-9|\\.|\\-]*)\\]"
+corrscript: /home/k8s/Go/ws/src/github.com/lhzd863/tools-server/script/analysis_corr0200.py
+corrgrepexp: "Correlation coefficient x y: \\[([0-9|\\.|\\-]*)\\]"
+

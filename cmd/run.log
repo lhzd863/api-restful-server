@@ -1,0 +1,2 @@
+2020/02/24 15:03:30 Get the API using http://localhost:9903/apidocs.json
+2020/02/24 15:03:30 Open Swagger UI using http://localhost:9903/apidocs/?url=http://localhost:9903/apidocs.json
